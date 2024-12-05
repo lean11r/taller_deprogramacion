@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<TITLE>Calculo IMC</TITLE>
+    <link rel="stylesheet" href="style.css">
+  
+	</HEAD>
+	<BODY>
+		<center>
+      <h1 style="color: rgb(0, 204, 255);" >Insertar tu altura (en m) y tu peso en kg</h1>
+     
+    <form action="" onsubmit="calcular_imc(event)">
+			<input type="number" name="altura" id="altura" onchange="calcular_imc(event)">
+			<input type="number" name="peso" id="peso" onchange="calcular_imc(event)">
+			<button type="submit" button style="color:darkblue">Calcular bondiolismo </button>
+    
+		</form>
+	<img src="" id="img_peso">
+
+  <p style="background-color: yellow;">
+    El sobrepeso puede causar la elevación de la concentración de colesterol total y de la presión arterial, y aumentar el riesgo de sufrir la enfermedad arterial coronaria. La obesidad aumenta las probabilidades de que se presenten otros factores de riesgo cardiovascular, en especial, presión arterial alta, colesterol elevado y diabetes.  
+  </p>
+
+		<h2 id="resu" style="color: yellow;"></h2>
+  </center>
+	</BODY>
+	<script type="text/javascript" src="funciones.js"></script>
+</HTML>
