@@ -1,1 +1,1 @@
-# taller_deprogramacion
+Trabajos prácticos de taller de programación
