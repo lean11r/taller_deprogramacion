@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Calculadora de Conversiones de Longitud</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<center>
+
+<div class="calculator">
+    <h2 style="color: yellow;">Calculadora de Conversiones de Longitud</h2>
+    <input type="number" id="inputValue"
+
+    
+    
+    
+    <label for="fromUnit">De:</label>
+    <select id="fromUnit">
+        <option value="km">Kilómetros</option>
+        <option value="m">Metros</option>
+        <option value="cm">Centímetros</option>
+        <option value="mm">Milímetros</option>
+    </select>
+    
+    <label for="toUnit">A:</label>
+    <select id="toUnit">
+        <option value="km">Kilómetros</option>
+        <option value="m">Metros</option>
+        <option value="cm">Centímetros</option>
+        <option value="mm">Milímetros</option>
+    </select>
+    
+    <button onclick="convert()">Convertir</button>
+    
+    <h3 id="result">Resultado: </h3>
+</div>
+
+</center>
+<script  type="text/javascript" src="funcion.js"></script>
+
+</body>
+</html>

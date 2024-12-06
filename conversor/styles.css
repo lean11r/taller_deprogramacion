@@ -1,0 +1,34 @@
+body {
+    background-image: url(src/rutatlantica.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h3#result {
+    color: yellow;
+    font-size: large;
+}
+
+button {
+    color: orangered;
+    border-color: yellow;
+}
+
+input#inputValue {
+  color: orangered;
+  border-color: yellow;
+}
+
+select#fromUnit {
+    color: orangered;
+    border-color: yellow;
+}
+
+label {
+    color: yellow;
+}
+
+select#toUnit {
+    border-color: yellow;
+    color: orangered;
+}
